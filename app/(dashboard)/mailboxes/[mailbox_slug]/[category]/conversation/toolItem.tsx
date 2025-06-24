@@ -1,8 +1,8 @@
 import { kebabCase, upperFirst } from "lodash-es";
-import { AlertTriangle, ChevronDown, ChevronRight, Zap } from "@/components/icons";
 import { useState } from "react";
 import type { Message } from "@/app/types/global";
 import HumanizedTime from "@/components/humanizedTime";
+import { AlertTriangle, ChevronDown, ChevronRight, Zap } from "@/components/icons";
 import { JsonView } from "@/components/jsonView";
 import { ToolMetadata } from "@/db/schema/conversationMessages";
 

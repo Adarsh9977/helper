@@ -1,6 +1,6 @@
-import { ExternalLink } from "@/components/icons";
 import { useEffect, useState } from "react";
 import HumanizedTime from "@/components/humanizedTime";
+import { ExternalLink } from "@/components/icons";
 import LoadingSpinner from "@/components/loadingSpinner";
 import { SimilarityCircle } from "@/components/similarityCircle";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";

@@ -1,6 +1,6 @@
-import { Check } from "@/components/icons";
 import { LucideIcon } from "lucide-react";
 import { useState } from "react";
+import { Check } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import {
   Command,

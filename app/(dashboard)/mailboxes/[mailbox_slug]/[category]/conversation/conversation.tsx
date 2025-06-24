@@ -1,17 +1,4 @@
 import FileSaver from "file-saver";
-import {
-  ArrowLeft,
-  ArrowRight,
-  ArrowUp,
-  ChevronLeft,
-  ChevronRight,
-  Download,
-  Info,
-  Link as LinkIcon,
-  PanelRightClose,
-  PanelRightOpen,
-  X,
-} from "@/components/icons";
 import Link from "next/link";
 import { useEffect, useLayoutEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
@@ -35,6 +22,19 @@ import {
   type Note,
 } from "@/app/types/global";
 import { CarouselDirection, createCarousel } from "@/components/carousel";
+import {
+  ArrowLeft,
+  ArrowRight,
+  ArrowUp,
+  ChevronLeft,
+  ChevronRight,
+  Download,
+  Info,
+  Link as LinkIcon,
+  PanelRightClose,
+  PanelRightOpen,
+  X,
+} from "@/components/icons";
 import LoadingSpinner from "@/components/loadingSpinner";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Badge } from "@/components/ui/badge";

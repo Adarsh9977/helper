@@ -1,10 +1,10 @@
 import { truncate } from "lodash-es";
-import { Check, Trash, X } from "@/components/icons";
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import type { FAQ } from "@/app/types/global";
 import { ConfirmationDialog } from "@/components/confirmationDialog";
 import { toast } from "@/components/hooks/use-toast";
+import { Check, Trash, X } from "@/components/icons";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";

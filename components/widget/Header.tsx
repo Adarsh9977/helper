@@ -1,6 +1,6 @@
-import { History, Maximize2, Minimize2, X } from "@/components/icons";
 import React from "react";
 import { HelperWidgetConfig } from "@helperai/sdk";
+import { History, Maximize2, Minimize2, X } from "@/components/icons";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { closeWidget, toggleWidgetHeight } from "@/lib/widget/messages";
 

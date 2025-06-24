@@ -5,6 +5,9 @@ import HumanizedTime from "@/components/humanizedTime";
 import { FlagAsBadAction } from "./flagAsBadAction";
 import "@/components/linkCta.css";
 import { truncate } from "lodash-es";
+import { useRouter } from "next/navigation";
+import { ConfirmationDialog } from "@/components/confirmationDialog";
+import { toast } from "@/components/hooks/use-toast";
 import {
   Bot,
   Download,
@@ -20,9 +23,6 @@ import {
   User,
   XCircle,
 } from "@/components/icons";
-import { useRouter } from "next/navigation";
-import { ConfirmationDialog } from "@/components/confirmationDialog";
-import { toast } from "@/components/hooks/use-toast";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { captureExceptionAndLog } from "@/lib/shared/sentry";

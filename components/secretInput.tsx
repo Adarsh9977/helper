@@ -1,8 +1,8 @@
 "use client";
 
-import { Copy, Eye, EyeOff } from "@/components/icons";
 import { useState } from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
+import { Copy, Eye, EyeOff } from "@/components/icons";
 import { Input } from "@/components/ui/input";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 

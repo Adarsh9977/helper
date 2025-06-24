@@ -1,7 +1,7 @@
 "use client";
 
-import { Search } from "@/components/icons";
 import { useState } from "react";
+import { Search } from "@/components/icons";
 import LoadingSpinner from "@/components/loadingSpinner";
 import { Input } from "@/components/ui/input";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";

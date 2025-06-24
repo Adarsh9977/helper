@@ -1,6 +1,6 @@
-import { Check, UserCircle } from "@/components/icons";
 import { useParams } from "next/navigation";
 import { useState } from "react";
+import { Check, UserCircle } from "@/components/icons";
 import LoadingSpinner from "@/components/loadingSpinner";
 import { Button } from "@/components/ui/button";
 import {

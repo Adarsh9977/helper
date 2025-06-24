@@ -1,7 +1,7 @@
 import type { JSONValue, Message } from "ai";
 import cx from "classnames";
-import { Paperclip } from "@/components/icons";
 import HumanizedTime from "@/components/humanizedTime";
+import { Paperclip } from "@/components/icons";
 import { Attachment } from "@/components/widget/Conversation";
 import MessageElement from "@/components/widget/MessageElement";
 import { useWidgetView } from "@/components/widget/useWidgetView";

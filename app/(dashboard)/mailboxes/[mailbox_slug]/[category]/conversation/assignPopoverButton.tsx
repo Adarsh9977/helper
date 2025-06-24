@@ -1,8 +1,8 @@
 "use client";
 
-import { Bot, User } from "@/components/icons";
 import { useEffect, useState } from "react";
 import { AssigneeOption, AssignSelect } from "@/components/assignSelect";
+import { Bot, User } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";

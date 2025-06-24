@@ -1,5 +1,4 @@
 import { isMacOS } from "@tiptap/core";
-import { CornerUpLeft } from "@/components/icons";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useConversationContext } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/[category]/conversation/conversationContext";
 import { DraftedEmail } from "@/app/types/global";
@@ -8,6 +7,7 @@ import { useFileUpload } from "@/components/fileUploadContext";
 import { useExpiringLocalStorage } from "@/components/hooks/use-expiring-local-storage";
 import { toast } from "@/components/hooks/use-toast";
 import { useSpeechRecognition } from "@/components/hooks/useSpeechRecognition";
+import { CornerUpLeft } from "@/components/icons";
 import { KeyboardShortcut } from "@/components/keyboardShortcut";
 import LabeledInput from "@/components/labeledInput";
 import TipTapEditor, { type TipTapEditorRef } from "@/components/tiptap/editor";

@@ -1,6 +1,6 @@
 import type { Message } from "ai";
-import { ChevronDown, ChevronRight, Info, X } from "@/components/icons";
 import { useState } from "react";
+import { ChevronDown, ChevronRight, Info, X } from "@/components/icons";
 import { JsonView } from "@/components/jsonView";
 import MessageMarkdown from "@/components/messageMarkdown";
 import { PromptInfo } from "@/lib/ai/promptInfo";

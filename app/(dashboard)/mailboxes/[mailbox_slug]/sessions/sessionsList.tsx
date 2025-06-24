@@ -1,10 +1,10 @@
 "use client";
 
 import { formatDistanceToNow } from "date-fns";
-import { Calendar, Eye, Loader2 } from "@/components/icons";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
+import { Calendar, Eye, Loader2 } from "@/components/icons";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";

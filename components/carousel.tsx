@@ -1,5 +1,5 @@
-import { ArrowLeft, ArrowRight } from "@/components/icons";
 import React, { createContext, useContext } from "react";
+import { ArrowLeft, ArrowRight } from "@/components/icons";
 import { useGlobalEventListener } from "./useGlobalEventListener";
 
 export enum CarouselDirection {

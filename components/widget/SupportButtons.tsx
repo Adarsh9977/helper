@@ -1,7 +1,7 @@
 import { UIMessage } from "ai";
-import { MessagesSquare, ThumbsDown, ThumbsUp, X } from "@/components/icons";
 import { motion } from "motion/react";
 import { useEffect, useState } from "react";
+import { MessagesSquare, ThumbsDown, ThumbsUp, X } from "@/components/icons";
 import { captureExceptionAndLog } from "@/lib/shared/sentry";
 import { cn } from "@/lib/utils";
 

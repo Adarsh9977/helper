@@ -1,10 +1,10 @@
 "use client";
 
-import { BookOpen, Link, MonitorSmartphone, Settings as SettingsIcon, UserPlus, Users } from "@/components/icons";
 import { useParams } from "next/navigation";
 import { AccountDropdown } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/accountDropdown";
 import Loading from "@/app/(dashboard)/mailboxes/[mailbox_slug]/settings/loading";
 import { FileUploadProvider } from "@/components/fileUploadContext";
+import { BookOpen, Link, MonitorSmartphone, Settings as SettingsIcon, UserPlus, Users } from "@/components/icons";
 import { PageHeader } from "@/components/pageHeader";
 import { Alert } from "@/components/ui/alert";
 import { api } from "@/trpc/react";

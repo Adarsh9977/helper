@@ -1,6 +1,6 @@
-import { Check, ExternalLinkIcon } from "@/components/icons";
 import { useEffect, useState } from "react";
 import { toast } from "@/components/hooks/use-toast";
+import { Check, ExternalLink as ExternalLinkIcon } from "@/components/icons";
 import LoadingSpinner from "@/components/loadingSpinner";
 import { Button } from "@/components/ui/button";
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem } from "@/components/ui/command";

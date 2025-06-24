@@ -1,4 +1,3 @@
-import { CornerUpLeft, DollarSign, ExternalLink, Mail } from "@/components/icons";
 import { useState } from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { AssignPopoverButton } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/[category]/conversation/assignPopoverButton";
@@ -7,6 +6,7 @@ import { useConversationListContext } from "@/app/(dashboard)/mailboxes/[mailbox
 import { Conversation } from "@/app/types/global";
 import { toast } from "@/components/hooks/use-toast";
 import HumanizedTime from "@/components/humanizedTime";
+import { CornerUpLeft, DollarSign, ExternalLink, Mail } from "@/components/icons";
 import LoadingSpinner from "@/components/loadingSpinner";
 import { SimilarityCircle } from "@/components/similarityCircle";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";

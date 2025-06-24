@@ -1,10 +1,10 @@
 "use client";
 
-import { ArrowLeft, Menu } from "@/components/icons";
 import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 import { AppSidebarOpen } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/appSidebarOpen";
 import { useIsMobile } from "@/components/hooks/use-mobile";
+import { ArrowLeft, Menu } from "@/components/icons";
 import { Avatar } from "@/components/ui/avatar";
 import { useSidebar } from "@/components/ui/sidebar";
 import { cn } from "@/lib/utils";

@@ -1,8 +1,8 @@
-import { Paperclip } from "@/components/icons";
 import { useRef, useState } from "react";
 import { useConversationContext } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/[category]/conversation/conversationContext";
 import { FileUploadProvider, UploadStatus, useFileUpload } from "@/components/fileUploadContext";
 import { toast } from "@/components/hooks/use-toast";
+import { Paperclip } from "@/components/icons";
 import FileAttachment from "@/components/tiptap/fileAttachment";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";

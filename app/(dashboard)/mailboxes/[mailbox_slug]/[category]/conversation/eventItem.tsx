@@ -1,4 +1,7 @@
 import { upperFirst } from "lodash-es";
+import { useState } from "react";
+import { ConversationEvent } from "@/app/types/global";
+import HumanizedTime from "@/components/humanizedTime";
 import {
   AlertCircle,
   ArrowLeftFromLine,
@@ -9,9 +12,6 @@ import {
   ChevronRight,
   User,
 } from "@/components/icons";
-import { useState } from "react";
-import { ConversationEvent } from "@/app/types/global";
-import HumanizedTime from "@/components/humanizedTime";
 import { api } from "@/trpc/react";
 
 const eventDescriptions = {

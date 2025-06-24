@@ -1,7 +1,7 @@
 import { capitalize } from "lodash-es";
-import { ArrowDownUp, Filter, Search } from "@/components/icons";
 import { useQueryState } from "nuqs";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { ArrowDownUp, Filter, Search } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";

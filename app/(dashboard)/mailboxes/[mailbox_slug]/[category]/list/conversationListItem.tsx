@@ -1,9 +1,9 @@
 import { escape } from "lodash-es";
-import { Bot, User } from "@/components/icons";
 import { useEffect, useRef } from "react";
 import scrollIntoView from "scroll-into-view-if-needed";
 import { ConversationListItem as ConversationListItemType } from "@/app/types/global";
 import HumanizedTime from "@/components/humanizedTime";
+import { Bot, User } from "@/components/icons";
 import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";

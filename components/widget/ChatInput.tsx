@@ -1,7 +1,7 @@
-import { Camera, Mic } from "@/components/icons";
 import * as motion from "motion/react-client";
 import { useCallback, useEffect, useState } from "react";
 import { useSpeechRecognition } from "@/components/hooks/useSpeechRecognition";
+import { Camera, Mic } from "@/components/icons";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Textarea } from "@/components/ui/textarea";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";

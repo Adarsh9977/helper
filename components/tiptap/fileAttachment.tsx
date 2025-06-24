@@ -1,7 +1,7 @@
 import cx from "classnames";
-import { AlertTriangle, Paperclip, RefreshCw, X } from "@/components/icons";
 import { forwardRef } from "react";
 import { UploadStatus, useFileUpload, type UnsavedFileInfo } from "@/components/fileUploadContext";
+import { AlertTriangle, Paperclip, RefreshCw, X } from "@/components/icons";
 import LoadingSpinner from "@/components/loadingSpinner";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { formatSizeHuman } from "@/components/utils/files";

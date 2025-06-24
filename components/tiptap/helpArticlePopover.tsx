@@ -1,6 +1,6 @@
-import { ExternalLink, Search, X } from "@/components/icons";
 import React from "react";
 import { createPortal } from "react-dom";
+import { ExternalLink, Search, X } from "@/components/icons";
 import { Input } from "@/components/ui/input";
 import { useBreakpoint } from "@/components/useBreakpoint";
 import { useOnOutsideClick } from "@/components/useOnOutsideClick";

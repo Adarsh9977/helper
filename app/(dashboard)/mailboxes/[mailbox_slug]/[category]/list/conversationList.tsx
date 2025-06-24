@@ -1,9 +1,9 @@
-import { Send } from "@/components/icons";
 import { useParams } from "next/navigation";
 import { useQueryState } from "nuqs";
 import { useEffect, useRef, useState } from "react";
 import { ConversationListItem as ConversationItem } from "@/app/types/global";
 import { toast } from "@/components/hooks/use-toast";
+import { Send } from "@/components/icons";
 import LoadingSpinner from "@/components/loadingSpinner";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";

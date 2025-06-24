@@ -1,13 +1,13 @@
 "use client";
 
 import cx from "classnames";
-import { ExternalLink, PlusCircle } from "@/components/icons";
 import { useParams, useRouter } from "next/navigation";
 import { useRef, useState } from "react";
 import type { MetadataEndpoint } from "@/app/types/global";
 import { ConfirmationDialog } from "@/components/confirmationDialog";
 import { getMarketingSiteUrl } from "@/components/constants";
 import { toast } from "@/components/hooks/use-toast";
+import { ExternalLink, PlusCircle } from "@/components/icons";
 import { SecretInput } from "@/components/secretInput";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";

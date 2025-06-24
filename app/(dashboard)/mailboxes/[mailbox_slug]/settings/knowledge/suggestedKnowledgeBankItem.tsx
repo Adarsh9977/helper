@@ -1,8 +1,8 @@
 "use client";
 
-import { Check, X } from "@/components/icons";
 import { useState } from "react";
 import type { FAQ } from "@/app/types/global";
+import { Check, X } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { api } from "@/trpc/react";

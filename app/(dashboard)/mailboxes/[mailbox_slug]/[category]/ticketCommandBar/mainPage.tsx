@@ -1,3 +1,7 @@
+import { useMemo, useRef } from "react";
+import { useConversationContext } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/[category]/conversation/conversationContext";
+import { Tool } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/[category]/ticketCommandBar/toolForm";
+import { toast } from "@/components/hooks/use-toast";
 import {
   CornerUpLeft as ArrowUturnLeftIcon,
   CornerRightUp as ArrowUturnUpIcon,
@@ -9,10 +13,6 @@ import {
   Sparkles as SparklesIcon,
   User as UserIcon,
 } from "@/components/icons";
-import { useMemo, useRef } from "react";
-import { useConversationContext } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/[category]/conversation/conversationContext";
-import { Tool } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/[category]/ticketCommandBar/toolForm";
-import { toast } from "@/components/hooks/use-toast";
 import useKeyboardShortcut from "@/components/useKeyboardShortcut";
 import { api } from "@/trpc/react";
 import GitHubSvg from "../icons/github.svg";

@@ -1,6 +1,6 @@
 import type { Editor } from "@tiptap/react";
-import { ALargeSmall, Mic, Minus, MinusIcon, RemoveFormatting } from "@/components/icons";
 import React, { useEffect, useState } from "react";
+import { ALargeSmall, Mic, Minus, RemoveFormatting } from "@/components/icons";
 import ToolbarFile from "@/components/tiptap/icons/file.svg";
 import { imageFileTypes } from "@/components/tiptap/image";
 import LinkModal from "@/components/tiptap/linkModal";
@@ -301,7 +301,7 @@ const Toolbar = ({
             open ? "bg-muted border border-border hover:border-primary" : "border border-border hover:border-primary",
           )}
         >
-          {open ? <MinusIcon className="h-4 w-4" /> : <ALargeSmall className="h-4 w-4" />}
+          {open ? <Minus className="h-4 w-4" /> : <ALargeSmall className="h-4 w-4" />}
           <span className="sr-only">{open ? "Close toolbar" : "Open toolbar"}</span>
         </Button>
       )}

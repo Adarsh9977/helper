@@ -1,5 +1,5 @@
-import { Star, User } from "@/components/icons";
 import Link from "next/link";
+import { Star, User } from "@/components/icons";
 import { Skeleton } from "@/components/ui/skeleton";
 import { api } from "@/trpc/react";
 

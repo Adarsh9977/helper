@@ -1,9 +1,9 @@
-import { ArrowRight, Check, Circle } from "@/components/icons";
 import Link from "next/link";
 import { HandHello } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/[category]/icons/handHello";
 import { InboxZero } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/[category]/icons/inboxZero";
 import { useConversationListContext } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/[category]/list/conversationListContext";
 import { useConversationsListInput } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/[category]/shared/queries";
+import { ArrowRight, Check, Circle } from "@/components/icons";
 import { cn } from "@/lib/utils";
 
 export const NoConversations = () => {

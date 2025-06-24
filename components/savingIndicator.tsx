@@ -1,5 +1,5 @@
-import { Check, Loader2, X } from "@/components/icons";
 import type { SavingState } from "@/components/hooks/useSavingIndicator";
+import { Check, Loader2, X } from "@/components/icons";
 import { cn } from "@/lib/utils";
 
 interface SavingIndicatorProps {

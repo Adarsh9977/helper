@@ -1,11 +1,11 @@
 "use client";
 
-import { ExternalLink, Sparkles } from "@/components/icons";
 import { useEffect, useState } from "react";
 import { useShowChatWidget } from "@/app/(dashboard)/mailboxes/[mailbox_slug]/clientLayout";
 import { getBaseUrl, getMarketingSiteUrl } from "@/components/constants";
 import { toast } from "@/components/hooks/use-toast";
 import { useSavingIndicator } from "@/components/hooks/useSavingIndicator";
+import { ExternalLink, Sparkles } from "@/components/icons";
 import { SavingIndicator } from "@/components/savingIndicator";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";

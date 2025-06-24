@@ -1,9 +1,9 @@
 "use client";
 
 import { formatDistanceToNow } from "date-fns";
-import { ChevronLeft, MessageSquare } from "@/components/icons";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import { ChevronLeft, MessageSquare } from "@/components/icons";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";

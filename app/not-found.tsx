@@ -1,9 +1,9 @@
 "use client";
 
-import { Shuffle } from "@/components/icons";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useCallback, useEffect, useState } from "react";
+import { Shuffle } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 
 export default function NotFound() {

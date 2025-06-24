@@ -1,11 +1,11 @@
 "use client";
 
-import { BotIcon, DollarSign, Flag, Mail, MessageSquare, Star, ThumbsDown, ThumbsUp } from "@/components/icons";
 import * as motion from "motion/react-client";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 import HumanizedTime from "@/components/humanizedTime";
+import { Bot as BotIcon, DollarSign, Flag, Mail, MessageSquare, Star, ThumbsDown, ThumbsUp } from "@/components/icons";
 import { Panel } from "@/components/panel";
 import { Badge } from "@/components/ui/badge";
 import { useDebouncedCallback } from "@/components/useDebouncedCallback";
