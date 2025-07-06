@@ -16,9 +16,9 @@ begin
   )
   values (
     new.id,
-    new.email,
     new.raw_user_meta_data ->> 'display_name',
     coalesce(new.raw_user_meta_data ->> 'permissions', 'member'),
+    new.email,
     jsonb_build_object(
       'role', coalesce(new.raw_user_meta_data ->> 'role', 'afk'),
       'keywords', coalesce(
